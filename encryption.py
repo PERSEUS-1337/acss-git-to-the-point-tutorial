@@ -1,3 +1,6 @@
+from Crypto.Cipher import AES
+from Crypto.Util.Padding import pad, unpad
+
 class AESCipher:
     def __init__(self, key):
         self.key = key
